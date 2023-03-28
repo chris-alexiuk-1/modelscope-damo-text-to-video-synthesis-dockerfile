@@ -8,7 +8,7 @@ You will need a RTX 3090 or 4090 to run this model on your local machine as the 
 
 1. Clone this repo using: 
 
-`git clone https://chris-alexiuk/modelscope-damo-text-to-video-synthesis-dockerfile`
+`git clone https://github.com/chris-alexiuk/modelscope-damo-text-to-video-synthesis-dockerfile.git`
 
 
 2. Create the image with 
