@@ -6,9 +6,19 @@ You will need a RTX 3090 or 4090 to run this model on your local machine as the 
 
 ## Instructions:
 
-1. Clone this repo using `git clone https://chris-alexiuk/modelscope-damo-text-to-video-synthesis-dockerfile`
-2. Create the image with `docker build -t damo-txt2vid .`
-3. Run the container with `docker run --gpus all -v ${HOME}/.cache:/root/.cache -p 7860:7860 --shm-size 30g -it --rm txt2vid`
+1. Clone this repo using: 
+
+`git clone https://chris-alexiuk/modelscope-damo-text-to-video-synthesis-dockerfile`
+
+
+2. Create the image with 
+
+`docker build -t damo-txt2vid .`
+
+
+3. Run the container with 
+
+`docker run --gpus all -v ${HOME}/.cache:/root/.cache -p 7860:7860 --shm-size 30g -it --rm txt2vid`
 
 :tada: That's it, enjoy! :tada:
 
